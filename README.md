@@ -14,7 +14,7 @@ An app that scrapes the coronavirus stats with just one click.
 
 ## How to run
 
-Run this commands( this works only if you have Git installed )
+Run this commands (this works only if you have Git installed)
 
 ```
 $ git clone https://github.com/themiscoding/coronavirus_stats
