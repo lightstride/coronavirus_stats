@@ -50,9 +50,3 @@ def get_country_stats(country):
     
  except:
     return {'error': 'An error occured'}
-
-
-
-if __name__  == '__main__':
-  print(get_world_stats())
-  print(get_country_stats('romania'))
