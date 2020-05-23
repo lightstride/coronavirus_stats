@@ -1,15 +1,15 @@
 # coronavirus_stats
 
-A app that scrapes the coronavirus stats with just one click.
+An app that scrapes the coronavirus stats with just one click.
 
 
 ## Requirements:
-| Requirements           | 
-| ---------------------- |
-| Python3.7.x or higher  | 
-| BeautifulSoup          |
-| Requests               |
-| PyQt5                  |
+| Requirements              | 
+| ------------------------- |
+| Python3.7.x or higher     | 
+| BeautifulSoup             |
+| Requests                  |
+| PyQt5                     |
 
 
 
