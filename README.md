@@ -5,7 +5,7 @@ An app that scrapes the coronavirus stats with just one click.
 
 | Requirements              | 
 | ------------------------- |
-| Python3.7.x or higher     | 
+| Python 3.7.x or higher    | 
 | BeautifulSoup             |
 | Requests                  |
 | PyQt5                     |
