@@ -23,6 +23,7 @@ $ python main.py
 
 ```
 
+From what I've seen this app needs an update and it does not longer work due to some errors.
 
 
 
