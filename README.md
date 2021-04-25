@@ -22,8 +22,9 @@ $ cd coronavirus_stats
 $ python main.py
 
 ```
+## Note from the developer
+This was one of my first begginer projects so the code is pretty garbage 😂
 
-From what I've seen this app needs an update and it does not longer work due to some errors.
 
 
 
