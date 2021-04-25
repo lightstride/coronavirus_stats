@@ -12,13 +12,14 @@ ui = gui.Ui_MainWindow()
 
 
 def button_clicked():
+    default_text = '0.000.000'
     ui.error.setText('')
     search_input = ui.user_input.toPlainText().strip()
     if not search_input:
         ui.error.setText('You have to enter something')
-        ui.deaths.setText('0.000.000')
-        ui.infected.setText('0.000.000')
-        ui.recovered.setText('0.000.000')
+        ui.deaths.setText(default_text)
+        ui.infected.setText(default_text)
+        ui.recovered.setText(default_text)
     else:
         if search_input == 'world':
             stats = get_world_stats()
