@@ -9,6 +9,7 @@ An app that scrapes the coronavirus stats with just one click.
 | BeautifulSoup             |
 | Requests                  |
 | PyQt5                     |
+| lxml                      |
 
 
 
