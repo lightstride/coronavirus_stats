@@ -14,8 +14,7 @@ ui = gui.Ui_MainWindow()
 def button_clicked():
     ui.error.setText('')
     search_input = ui.user_input.toPlainText().strip()
-    if search_input == '':
-
+    if not search_input:
         ui.error.setText('You have to enter something')
         ui.deaths.setText('0.000.000')
         ui.infected.setText('0.000.000')
@@ -51,7 +50,6 @@ def set_stats(stats):
 def run_app():
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-
     ui.setupUi(MainWindow)
     ui.search_btn.clicked.connect(button_clicked)
     MainWindow.show()
