@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-
-
 def validate_country(ctry):
     ctry = ctry.lower()
     if ctry == 'usa':
@@ -14,7 +12,6 @@ def validate_country(ctry):
         ctry = country_list[0] + '-' + country_list[1]
         
     return ctry   
-
 
 
 def get_world_stats():
@@ -31,7 +28,6 @@ def get_world_stats():
     except:
         return {'error' : 'An error occured'}
     return stats
-
 
 def get_country_stats(country):
  try:
