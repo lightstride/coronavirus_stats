@@ -24,7 +24,7 @@ $ python main.py
 
 ```
 ## Note from the developer
-This was one of my first begginer projects so the code is pretty garbage 😂
+This was one of my first beginner projects so the code is pretty garbage 😂
 
 
 
